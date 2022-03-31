@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Palmistry</string>
+
+
+    <string name="predispotion">Ваши предрасположенности</string>
+    <string name="predictions">Предсказания</string>
+
+
+    <string name="friendship">Дружба</string>
+    <string name="sex">Секс</string>
+    <string name="job">Работа</string>
+    <string name="marriage">Брак</string>
+
+    <string name="day">День</string>
+    <string name="month">Месяц</string>
+    <string name="year">Год</string>
+
+    <string name="more">Подробнее</string>
+
+    <string name="compability">Совместимости</string>
+
+    <string name="bio">Биоритмы</string>
+
+    <string name="health">Здоровье</string>
+    <string name="emotions">Эмоции</string>
+    <string name="intellect">Интеллект</string>
+
+
+    <string name="firsttext">дробнwdddddddddddddddddddddddПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddдробнwdddddddddddddddddddddddПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwddddddddddddddddddd</string>
+
+    <string name="longtext">ПодробнwdddddddddddddddddddddddПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееПодробнwdddddddddddddddddddddddddddddddddddееddddddddddddее</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="more1">День важных решений. Не всем будет просто принять их: может не хватать информации, опыта, уверенности в собственной правоте. Пригодятся советы давних знакомых, но делать все, что рекомендуют другие, не нужно. В особенно ответственные моменты лучше полагаться на собственный здравый смысл и интуицию.</string>
+    <string name="more2">На спешите с выводами: первое впечатление о многих вещах, людях и событиях может оказаться ложным. Прежде чем делиться какой-то информацией, убедитесь, что она правдива. О своих идеях стоит рассказывать окружающим лишь после того, как вы все сами обдумаете.</string>
+
+</resources>
