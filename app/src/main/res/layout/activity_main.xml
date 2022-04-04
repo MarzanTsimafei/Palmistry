@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bgColor"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -51,6 +52,11 @@
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="177dp"
                 android:text="Артур"
+                android:fontFamily="sans-serif-medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textColor="@color/white"
+
                 android:textSize="34sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -61,45 +67,48 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="14dp"
-                android:layout_marginTop="48dp"
+                android:layout_marginTop="15dp"
                 android:text="Близнецы"
-                android:textSize="20sp"
+                android:textSize="20dp"
                 app:layout_constraintStart_toEndOf="@+id/imageView3"
                 app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:layout_marginStart="140dp"
-                android:layout_marginTop="44dp"
+                android:layout_marginTop="20dp"
                 android:src="@drawable/img_2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
+
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="290dp"
+                android:layout_height="30dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="48dp"
                 android:layout_marginEnd="337dp"
                 android:text="@string/predispotion"
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-medium"
+
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="21dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="44dp"
                 android:text="@string/friendship"
+                android:textColor="@color/white"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -110,6 +119,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="14dp"
                 android:text="@string/sex"
+                android:textColor="@color/white"
+
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -120,6 +131,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="14dp"
                 android:text="@string/job"
+                android:textColor="@color/white"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -130,6 +142,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="14dp"
                 android:text="@string/marriage"
+                android:textColor="@color/white"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -140,6 +153,7 @@
                 android:layout_marginTop="44dp"
                 android:layout_marginEnd="20dp"
                 android:text="60%"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -150,6 +164,7 @@
                 android:layout_marginTop="14dp"
                 android:layout_marginEnd="20dp"
                 android:text="60%"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -159,7 +174,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:layout_marginEnd="20dp"
-                android:text="60%"
+                android:text="77%"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -169,7 +185,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:layout_marginEnd="20dp"
-                android:text="60%"
+                android:text="80%"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -177,12 +194,13 @@
                 android:id="@+id/textView13"
                 android:layout_width="193dp"
                 android:layout_height="27dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="64dp"
                 android:layout_marginEnd="337dp"
                 android:text="@string/predictions"
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-medium"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -199,19 +217,24 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView13"
                 app:srcCompat="@drawable/predictions" />
 
+
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="32dp"
+                android:layout_marginEnd="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                android:background="@color/bgColor"
                 app:tabIndicator="@drawable/tab_background"
                 app:tabIndicatorAnimationMode="elastic"
+                app:tabIndicatorColor="@color/pbColor"
                 app:tabIndicatorGravity="stretch"
                 app:tabMode="fixed"
-                app:tabSelectedTextColor="@color/purple_700">
+                app:tabSelectedTextColor="@color/black">
 
                 <com.google.android.material.tabs.TabItem
                     android:layout_width="wrap_content"
@@ -234,27 +257,32 @@
                 android:id="@+id/extv"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="35dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginEnd="20dp"
                 android:text="@string/more2"
-                android:textColor="#666666"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
+
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_more1"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="20dp"
                 android:background="@drawable/mybutton"
-                android:text="Подробнее"
+                android:text="@string/more"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/extv"></androidx.appcompat.widget.AppCompatButton>
-
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -268,17 +296,19 @@
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp">
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
                         android:orientation="horizontal">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -289,10 +319,10 @@
 
                                 <ImageView
                                     android:id="@+id/imageViewBliznetsy"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/bliznetsy"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -301,22 +331,23 @@
                                     android:id="@+id/tvBliznetsy"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Близнецы "
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/imageViewBliznetsy" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvBsovm"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="73%"
-                                    android:textSize="20sp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -329,7 +360,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -340,10 +371,10 @@
 
                                 <ImageView
                                     android:id="@+id/imageView4"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/deva"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -352,22 +383,23 @@
                                     android:id="@+id/textView15"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Дева"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/textView19"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="33%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="52%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -378,7 +410,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -389,10 +421,10 @@
 
                                 <ImageView
                                     android:id="@+id/imfish"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/fish"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -401,22 +433,23 @@
                                     android:id="@+id/tvfish"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Рыбы"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/imfish" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvfish_1"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="53%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="80%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -427,7 +460,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -438,10 +471,10 @@
 
                                 <ImageView
                                     android:id="@+id/imvkoz"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/kozerog"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -450,22 +483,23 @@
                                     android:id="@+id/tvkoz"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Козерог"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/imvkoz" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvkoz_1"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="73%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="66%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -476,7 +510,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -487,10 +521,10 @@
 
                                 <ImageView
                                     android:id="@+id/imvlion"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/lion"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -499,22 +533,23 @@
                                     android:id="@+id/tvlion"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Лев"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/imvlion" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvlion_1"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="78%"
-                                    android:textSize="20sp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -525,7 +560,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -536,10 +571,10 @@
 
                                 <ImageView
                                     android:id="@+id/oven"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/oven"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -548,22 +583,23 @@
                                     android:id="@+id/tvoven"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Овен"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/oven" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvoven_2"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="78%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="53%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -574,7 +610,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -585,10 +621,10 @@
 
                                 <ImageView
                                     android:id="@+id/rak"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/rak"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -597,22 +633,23 @@
                                     android:id="@+id/tvrak"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Рак"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/rak" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvrak_1"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="78%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="89%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -623,7 +660,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -634,10 +671,10 @@
 
                                 <ImageView
                                     android:id="@+id/scorpio"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/scorpio"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -646,22 +683,23 @@
                                     android:id="@+id/tvscorpio"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Овен"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/scorpio" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvscorpio_2"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="78%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="74%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -672,7 +710,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -683,10 +721,10 @@
 
                                 <ImageView
                                     android:id="@+id/strelec"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/strelec"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -695,22 +733,23 @@
                                     android:id="@+id/tvstrel"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Стрелец"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/strelec" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvstrele"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="78%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="79%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -721,7 +760,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -732,10 +771,10 @@
 
                                 <ImageView
                                     android:id="@+id/telec"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/telec"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -744,22 +783,23 @@
                                     android:id="@+id/tvtelec"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Телец"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/telec" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvtele2c"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="78%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="88%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -770,7 +810,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -781,10 +821,10 @@
 
                                 <ImageView
                                     android:id="@+id/vesy"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/vesy"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -793,22 +833,23 @@
                                     android:id="@+id/tvvesy"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Весы"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/vesy" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvvesy_1"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="78%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="92%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -819,7 +860,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_margin="20dp"
+                            android:layout_margin="5dp"
                             app:cardCornerRadius="20dp"
                             app:cardElevation="10dp">
 
@@ -830,10 +871,10 @@
 
                                 <ImageView
                                     android:id="@+id/vodolei"
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_marginTop="12dp"
-                                    android:layout_marginEnd="24dp"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="40dp"
                                     android:src="@drawable/vodolei"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -842,22 +883,23 @@
                                     android:id="@+id/tvvodo"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="16dp"
-                                    android:layout_marginTop="8dp"
-                                    android:layout_marginBottom="11dp"
+                                    android:textColor="@color/white"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginBottom="20dp"
                                     android:text="Водолей"
                                     app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/vodolei" />
+                                    app:layout_constraintStart_toStartOf="parent" />
 
                                 <TextView
                                     android:id="@+id/tvvodo_1"
+                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="15dp"
-                                    android:layout_marginBottom="9dp"
-                                    android:text="78%"
-                                    android:textSize="20sp"
+                                    android:layout_marginBottom="20dp"
+                                    android:text="71%"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
                                     app:layout_constraintBottom_toBottomOf="parent"
                                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -877,10 +919,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="32dp"
                 android:layout_marginStart="21dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="50dp"
                 android:text="@string/compability"
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="18dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_more1" />
 
@@ -889,28 +932,37 @@
                 android:id="@+id/textView17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="18dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="50dp"
                 android:text="@string/bio"
+                android:fontFamily="sans-serif-medium"
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:textSize="18dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+
+
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="25dp"
-                app:tabIndicator="@drawable/tab_background"
-                app:tabIndicatorAnimationMode="elastic"
-                app:tabIndicatorGravity="stretch"
-                app:tabMode="fixed"
-                app:tabSelectedTextColor="@color/purple_700"
+                android:layout_marginEnd="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView17">
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                android:background="@color/bgColor"
+                app:tabIndicator="@drawable/tab_background"
+                app:tabIndicatorAnimationMode="elastic"
+                app:tabIndicatorColor="@color/pbColor"
+                app:tabIndicatorGravity="stretch"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/black">
 
                 <com.google.android.material.tabs.TabItem
                     android:layout_width="wrap_content"
@@ -941,7 +993,9 @@
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="22dp"
+                android:layout_marginEnd="20dp"
                 android:text="@string/more1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -951,10 +1005,15 @@
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="25dp"
                 android:background="@drawable/mybutton"
                 android:text="@string/more"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -963,10 +1022,11 @@
                 android:id="@+id/progressBar"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="230dp"
-                android:layout_height="20dp"
+                android:layout_height="5dp"
                 android:layout_marginStart="100dp"
-                android:layout_marginTop="44dp"
+                android:layout_marginTop="53dp"
                 android:progress="60"
+                android:progressDrawable="@drawable/greenprogress"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -974,10 +1034,11 @@
                 android:id="@+id/progressBar2"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="230dp"
-                android:layout_height="20dp"
+                android:layout_height="5dp"
                 android:layout_marginStart="100dp"
-                android:layout_marginTop="12dp"
-                android:progress="60"
+                android:layout_marginTop="30dp"
+                android:progress="52"
+                android:progressDrawable="@drawable/greenprogress"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/progressBar" />
 
@@ -985,10 +1046,11 @@
                 android:id="@+id/progressBar3"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="230dp"
-                android:layout_height="20dp"
+                android:layout_height="5dp"
                 android:layout_marginStart="100dp"
-                android:layout_marginTop="12dp"
-                android:progress="60"
+                android:layout_marginTop="30dp"
+                android:progress="77"
+                android:progressDrawable="@drawable/greenprogress"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/progressBar2" />
 
@@ -996,10 +1058,11 @@
                 android:id="@+id/progressBar4"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="230dp"
-                android:layout_height="20dp"
+                android:layout_height="5dp"
                 android:layout_marginStart="100dp"
-                android:layout_marginTop="12dp"
-                android:progress="60"
+                android:layout_marginTop="30dp"
+                android:progress="80"
+                android:progressDrawable="@drawable/greenprogress"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/progressBar3" />
 

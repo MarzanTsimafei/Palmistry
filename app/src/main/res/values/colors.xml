@@ -8,5 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="da">#393B73</color>
-    <color name="btnColor">#7F7F8A</color>
+    <color name="btnColor">#383B43</color>
+    <color name="pbColor">#80D7DC</color>
+    <color name="pbColor2">#FFFFFF</color>
+    <color name="bgColor">#202227</color>
+
 </resources>
